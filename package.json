@@ -12,5 +12,14 @@
     "express": "^4.16.4",
     "mocha": "^5.2.0",
     "supertest": "^3.3.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lqqyt2423/basic-auth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lqqyt2423/basic-auth/issues"
+  },
+  "homepage": "https://github.com/lqqyt2423/basic-auth#readme"
 }
