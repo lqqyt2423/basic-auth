@@ -1,0 +1,16 @@
+{
+  "name": "@liqiqiang/basic-auth",
+  "version": "1.0.0",
+  "description": "The basic auth middleware for express",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js"
+  },
+  "author": "liqiqiang",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "supertest": "^3.3.0"
+  }
+}
