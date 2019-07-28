@@ -1,6 +1,6 @@
 {
   "name": "@liqiqiang/basic-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The basic auth middleware for express",
   "main": "index.js",
   "scripts": {

@@ -18,9 +18,8 @@ function basicAuth(user, password) {
     };
     if (!headers.authorization) return respondAuth();
 
-    let auth = headers.authorization.replace('Basic ', '');
-    auth = new Buffer(auth, 'base64').toString();
-    if (auth !== `${user}:${password}`) return respondAuth();
+    let auth = Buffer.from(`${user}:${password}`).toString('base64');
+    if ('Basic ' + auth !== headers.authorization) return respondAuth();
 
     next();
   };
